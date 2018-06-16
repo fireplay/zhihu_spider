@@ -1,0 +1,282 @@
+﻿2018-06-16 09:48:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/50733090/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19570261/feeds/top_activity?limit=20&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/277455168/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19556784/feeds/top_activity?limit=20&after_id=4666.50693&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:48:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/280391217/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19554834/feeds/top_activity?limit=20&after_id=4665.11989&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:48:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/27152570/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19577399/feeds/top_activity?limit=20&after_id=4664.17881&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:48:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/274814109/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19556784/feeds/top_activity?limit=20&after_id=4661.78426&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:49:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/25719918/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19573630/feeds/top_activity?limit=20&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:49:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/28365222/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19573630/feeds/top_activity?limit=20&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:49:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/265407029/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19610267/feeds/top_activity?limit=20&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 09:49:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.zhihu.com/api/v4/questions/19958609/answers?sort_by=default&limit=20&offset=20> (referer: https://www.zhihu.com/api/v4/topics/19571968/feeds/top_activity?limit=20&after_id=-758.01000&offset=20)
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\PyPro\my_scrapy\zhihu\zhihu\spiders\zhihu.py", line 179, in parse_topic_answers
+    comments = result['comment_count']
+KeyError: 'comment_count'
+2018-06-16 13:51:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/38019570/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=500>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/37447117/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=160&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/22609589/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1060>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/62128592/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=100>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/31360766/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=980>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/266779869/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1820>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/31338218/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=380>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/67311777/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=800&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/19873013/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=520&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectError: An error occurred while connecting: 10065: 套接字操作尝试一个无法连接的主机。.
+2018-06-16 13:51:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/32196783/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1020>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.NoRouteError: No route to host: 10051: 向一个无法连接的网络尝试了一个套接字操作。.
+2018-06-16 13:51:37 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/20504079/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=960&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.NoRouteError: No route to host: 10051: 向一个无法连接的网络尝试了一个套接字操作。.
+2018-06-16 13:51:37 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/22413227/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=40&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.NoRouteError: No route to host: 10051: 向一个无法连接的网络尝试了一个套接字操作。.
+2018-06-16 15:35:02 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/22613552/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=360&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 651, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.zhihu.com/api/v4/questions/22613552/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=360&sort_by=default took longer than 180.0 seconds..
+2018-06-16 16:39:10 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/27244993/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1300>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 651, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.zhihu.com/api/v4/questions/27244993/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1300 took longer than 180.0 seconds..
+2018-06-16 19:13:18 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhihu.com/api/v4/questions/59444784/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1520&sort_by=default>
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 1297, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\python\Lib\site-packages\twisted\python\failure.py", line 389, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\python\Lib\site-packages\twisted\internet\defer.py", line 651, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\Lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.zhihu.com/api/v4/questions/59444784/answers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=1520&sort_by=default took longer than 180.0 seconds..
